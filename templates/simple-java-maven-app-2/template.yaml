@@ -1,16 +1,16 @@
 version: 1
 type: pipeline-template
 
-name: Java Maven App Pipeline Job
+name: Java Maven App Pipeline Job 2
 description: Simple Java App With Maven
 parameters:
   - name: emailRecipient
     type: string
-    displayName: Email address to be used for sending build notifications
+    displayName: Email address to be used for sending build notifications 2
   - name: github_repo
     type: string
-    displayName: GitHub HTTPS repo endpoint
+    displayName: GitHub HTTPS repo endpoint 2
   - name: github_creds
-    displayName: GitHub Credentials ID
+    displayName: GitHub Credentials ID 2
     type: credentials
     defaultValue: github-creds-example
